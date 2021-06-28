@@ -37,6 +37,15 @@ Plug 'yggdroot/indentline'
 "RainBow
 Plug 'frazrepo/vim-rainbow'
 
+"Tabnine
+Plug 'codota/tabnine-vim'
+
+"YouCompleteMe para que funcione Tabnine
+Plug 'valloric/youcompleteme'
+
+"Vim JSX
+Plug 'mxw/vim-jsx'
+
 
 
 
