@@ -25,5 +25,5 @@ let g:NERDTrimTrailingWhitespace = 1
 " Enable NERDCommenterToggle to check all selected lines is commented or not 
 let g:NERDToggleCheckAllLines = 1
 
-nnoremap <silent><space>} V}:call NERDComment('x', 'toggle')<CR>
+nnoremap <silent><space>} :call NERDComment('c<space>', 'toggle')<CR>
 " nnoremap <silent> <leader>c{ V{:call NERDComment('x', 'toggle')<CR>
